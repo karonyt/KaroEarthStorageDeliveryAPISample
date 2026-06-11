@@ -4,25 +4,48 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>KaroMall</title>
-  <link rel="stylesheet" href="/styles.css?v=20260611-texture-display">
+  <link rel="stylesheet" href="/styles.css?v=20260611-amazon">
 </head>
 <body>
+  <div class="utility-bar">
+    <div class="utility-bar-inner">
+      <span class="utility-left" id="utility-store-name">KaroMall</span>
+      <div class="utility-right">
+        <a class="utility-link" href="#">注文履歴</a>
+        <a class="utility-link" href="#">ヘルプ</a>
+      </div>
+    </div>
+  </div>
+
   <header class="topbar">
     <a class="brand" href="/" aria-label="KaroMall home">
-      <span class="brand-mark">K</span>
-      <span>KaroMall</span>
+      <span class="brand-logo"><span class="brand-k">K</span><span class="brand-name">KaroMall</span><span class="brand-dot">.com</span></span>
     </a>
+
     <form class="search" id="search-form">
-      <label class="sr-only" for="search-input">検索</label>
-      <input id="search-input" type="search" placeholder="アイテム名、種類、販売店で検索">
-      <button type="submit" aria-label="検索">
-        <span class="search-icon"></span>
-      </button>
+      <div class="search-inner">
+        <select class="search-category" id="search-category-select" aria-label="カテゴリ">
+          <option value="all">すべて</option>
+        </select>
+        <label class="sr-only" for="search-input">検索</label>
+        <input id="search-input" type="search" placeholder="商品を検索">
+        <button type="submit" class="search-btn" aria-label="検索">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </button>
+      </div>
     </form>
-    <button class="cart-button" id="cart-toggle" type="button" aria-label="カート">
-      <span class="cart-glyph"></span>
-      <span id="cart-count">0</span>
-    </button>
+
+    <div class="header-right">
+      <div class="account-info">
+        <span class="account-greeting">こんにちは</span>
+        <span class="account-name" id="header-username">ゲスト</span>
+      </div>
+      <button class="cart-button" id="cart-toggle" type="button" aria-label="カート">
+        <svg class="cart-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+        <span class="cart-label">カート</span>
+        <span class="cart-badge" id="cart-count">0</span>
+      </button>
+    </div>
   </header>
 
   <nav class="subnav" id="seller-tabs" aria-label="販売店"></nav>
@@ -50,24 +73,38 @@
     </aside>
 
     <section class="catalog">
+      <nav class="breadcrumb" aria-label="パンくず">
+        <a href="/">ホーム</a>
+        <span class="breadcrumb-sep">/</span>
+        <span id="breadcrumb-current">すべての商品</span>
+      </nav>
+
       <div class="catalog-head">
         <div>
-          <p class="eyebrow" id="catalog-kicker">Delivery Marketplace</p>
-          <h1 id="catalog-title">商品一覧</h1>
+          <h1 id="catalog-title">すべての商品</h1>
+          <p class="result-count" id="result-count"></p>
         </div>
-        <p class="result-count" id="result-count"></p>
+        <div class="catalog-toolbar">
+          <span id="page-range"></span>
+          <label>並び替え：
+            <select id="sort-select-inline">
+              <option value="recommended">おすすめ順</option>
+              <option value="stock">在庫が多い順</option>
+              <option value="shipping">配送料が安い順</option>
+              <option value="name">名前順</option>
+            </select>
+          </label>
+          <label>表示件数
+            <select id="page-size-select">
+              <option value="12">12</option>
+              <option value="24">24</option>
+              <option value="48">48</option>
+            </select>
+          </label>
+        </div>
       </div>
+
       <div class="status" id="status"></div>
-      <div class="catalog-toolbar">
-        <span id="page-range"></span>
-        <label>表示件数
-          <select id="page-size-select">
-            <option value="12">12</option>
-            <option value="24">24</option>
-            <option value="48">48</option>
-          </select>
-        </label>
-      </div>
       <div class="product-grid" id="product-grid"></div>
       <nav class="pagination" id="pagination" aria-label="ページ"></nav>
     </section>
@@ -112,6 +149,6 @@
     <button class="primary" id="order-dialog-close" type="button">閉じる</button>
   </dialog>
 
-  <script src="/app.js?v=20260611-texture-display" type="module"></script>
+  <script src="/app.js?v=20260611-amazon" type="module"></script>
 </body>
 </html>
