@@ -29,7 +29,7 @@ MARKETPLACE_RESOURCE_PACK_DIRS=/path/to/resource_pack_a,/path/to/resource_pack_b
 
 ## APIキーの発行場所
 
-`account-link` の `/me` にログインして、Minecraft 連携済み状態で **SHOP API 管理** を開きます。
+[`account-link`](https://mclink.karon.jp/) の `/me` にログインして、Minecraft 連携済み状態で **SHOP API 管理** を開きます。
 
 1. 販売サイトを作成
 2. 表示された `siteId` とサイト専用APIキーを控える
