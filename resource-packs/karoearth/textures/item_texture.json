@@ -1,0 +1,78 @@
+{
+  "resource_pack_name": "makecountry",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "gatya_ticket": {
+      "textures": "textures/ui/gatya2"
+    },
+    "login_ticket": {
+      "textures": "textures/ui/gatya4"
+    },
+    "vote_ticket": {
+      "textures": "textures/ui/gatya5"
+    },
+    "temple_bell_item": {
+      "textures": "textures/items/temple_bell_item"
+    },
+    "sukiyaki": {
+      "textures": "textures/items/sukiyaki"
+    },
+    "toshikoshi_soba": {
+      "textures": "textures/items/toshikoshi_soba"
+    },
+    "offertory_box_item": {
+      "textures": "textures/items/offertory_box_item"
+    },
+    "xmas_santa_doll_item": {
+      "textures": "textures/items/xmas_santa_doll_item"
+    },
+    "ramen": {
+      "textures": "textures/items/ramen"
+    },
+    "xmas_ticket": {
+      "textures": "textures/ui/xmas_gatya"
+    },
+    "spring_gatya": {
+      "textures": "textures/ui/spring_gatya"
+    },
+    "cherry_sword": {
+      "textures": "textures/items/cherry_sword"
+    },
+    "rsk_sword": {
+      "textures": "textures/items/rsk_sword"
+    },
+    "beans_box_item": {
+      "textures": "textures/items/beans_box_item"
+    },
+    "mgmg_ticket": {
+      "textures": "textures/ui/mgmg_gatya"
+    },
+    "mana_stone": {
+      "textures": "textures/items/solo/mana_stone"
+    },
+    "rune": {
+      "textures": "textures/items/solo/rune"
+    },
+    "magic_stone_e": {
+      "textures": "textures/items/solo/magic_stone_e"
+    },
+    "magic_stone_d": {
+      "textures": "textures/items/solo/magic_stone_d"
+    },
+    "magic_stone_c": {
+      "textures": "textures/items/solo/magic_stone_c"
+    },
+    "magic_stone_b": {
+      "textures": "textures/items/solo/magic_stone_b"
+    },
+    "magic_stone_a": {
+      "textures": "textures/items/solo/magic_stone_a"
+    },
+    "magic_stone_s": {
+      "textures": "textures/items/solo/magic_stone_s"
+    },
+    "casino_coin": {
+      "textures": "textures/items/casino_coin"
+    }
+  }
+}

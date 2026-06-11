@@ -1,0 +1,2374 @@
+{
+  "resource_pack_name": "makecountry",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "shop_block": {
+      "textures": "textures/blocks/shop_block"
+    },
+    "wheat_stage_0": {
+      "textures": "textures/blocks/wheat_stage_0"
+    },
+    "wheat_stage_1": {
+      "textures": "textures/blocks/wheat_stage_1"
+    },
+    "wheat_stage_2": {
+      "textures": "textures/blocks/wheat_stage_2"
+    },
+    "wheat_stage_3": {
+      "textures": "textures/blocks/wheat_stage_3"
+    },
+    "wheat_stage_4": {
+      "textures": "textures/blocks/wheat_stage_4"
+    },
+    "wheat_stage_5": {
+      "textures": "textures/blocks/wheat_stage_5"
+    },
+    "wheat_stage_6": {
+      "textures": "textures/blocks/wheat_stage_6"
+    },
+    "wheat_stage_7": {
+      "textures": "textures/blocks/wheat_stage_7"
+    },
+    "soybeans_stage_0": {
+      "textures": "textures/blocks/soybeans_crop/soybeans_stage_0"
+    },
+    "soybeans_stage_1": {
+      "textures": "textures/blocks/soybeans_crop/soybeans_stage_1"
+    },
+    "soybeans_stage_2": {
+      "textures": "textures/blocks/soybeans_crop/soybeans_stage_2"
+    },
+    "soybeans_stage_3": {
+      "textures": "textures/blocks/soybeans_crop/soybeans_stage_3"
+    },
+    "fryingpan": {
+      "textures": "textures/blocks/fryingpan"
+    },
+    "fry_stew": {
+      "textures": "textures/blocks/fry_stew"
+    },
+    "tomato_stage_1": {
+      "textures": "textures/blocks/crop/tomato_stage_1"
+    },
+    "tomato_stage_2": {
+      "textures": "textures/blocks/crop/tomato_stage_2"
+    },
+    "tomato_stage_3": {
+      "textures": "textures/blocks/crop/tomato_stage_3"
+    },
+    "tomato_stage_4": {
+      "textures": "textures/blocks/crop/tomato_stage_4"
+    },
+    "onion_stage_1": {
+      "textures": "textures/blocks/crop/onion_stage_1"
+    },
+    "onion_stage_2": {
+      "textures": "textures/blocks/crop/onion_stage_2"
+    },
+    "onion_stage_3": {
+      "textures": "textures/blocks/crop/onion_stage_3"
+    },
+    "onion_stage_4": {
+      "textures": "textures/blocks/crop/onion_stage_4"
+    },
+    "strawberry_stage_1": {
+      "textures": "textures/blocks/crop/strawberry_stage_1"
+    },
+    "strawberry_stage_2": {
+      "textures": "textures/blocks/crop/strawberry_stage_2"
+    },
+    "strawberry_stage_3": {
+      "textures": "textures/blocks/crop/strawberry_stage_3"
+    },
+    "strawberry_stage_4": {
+      "textures": "textures/blocks/crop/strawberry_stage_4"
+    },
+    "garlic_stage_1": {
+      "textures": "textures/blocks/crop/garlic_stage_1"
+    },
+    "garlic_stage_2": {
+      "textures": "textures/blocks/crop/garlic_stage_2"
+    },
+    "garlic_stage_3": {
+      "textures": "textures/blocks/crop/garlic_stage_3"
+    },
+    "garlic_stage_4": {
+      "textures": "textures/blocks/crop/garlic_stage_4"
+    },
+    "corn_stage_1": {
+      "textures": "textures/blocks/crop/corn_stage_1"
+    },
+    "corn_stage_2": {
+      "textures": "textures/blocks/crop/corn_stage_2"
+    },
+    "corn_stage_3": {
+      "textures": "textures/blocks/crop/corn_stage_3"
+    },
+    "corn_stage_4": {
+      "textures": "textures/blocks/crop/corn_stage_4"
+    },
+    "orange_stage_1": {
+      "textures": "textures/blocks/crop/orange_stage_1"
+    },
+    "orange_stage_2": {
+      "textures": "textures/blocks/crop/orange_stage_2"
+    },
+    "orange_stage_3": {
+      "textures": "textures/blocks/crop/orange_stage_3"
+    },
+    "orange_stage_4": {
+      "textures": "textures/blocks/crop/orange_stage_4"
+    },
+    "basil_stage_1": {
+      "textures": "textures/blocks/crop/basil_stage_1"
+    },
+    "basil_stage_2": {
+      "textures": "textures/blocks/crop/basil_stage_2"
+    },
+    "basil_stage_3": {
+      "textures": "textures/blocks/crop/basil_stage_3"
+    },
+    "basil_stage_4": {
+      "textures": "textures/blocks/crop/basil_stage_4"
+    },
+    "pineapple_stage_1": {
+      "textures": "textures/blocks/crop/pineapple_stage_1"
+    },
+    "pineapple_stage_2": {
+      "textures": "textures/blocks/crop/pineapple_stage_2"
+    },
+    "pineapple_stage_3": {
+      "textures": "textures/blocks/crop/pineapple_stage_3"
+    },
+    "pineapple_stage_4": {
+      "textures": "textures/blocks/crop/pineapple_stage_4"
+    },
+    "olive_stage_4": {
+      "textures": "textures/blocks/crop/tomato_stage_1"
+    },
+    "ruby_ore": {
+      "textures": "textures/blocks/ore/ruby_ore"
+    },
+    "deepslate_ruby_ore": {
+      "textures": "textures/blocks/ore/deepslate_ruby_ore"
+    },
+    "sapphire_ore": {
+      "textures": "textures/blocks/ore/sapphire_ore"
+    },
+    "deepslate_sapphire_ore": {
+      "textures": "textures/blocks/ore/deepslate_sapphire_ore"
+    },
+    "rock_salt_ore": {
+      "textures": "textures/blocks/ore/rock_salt_ore"
+    },
+    "vanadium_ore": {
+      "textures": "textures/blocks/ore/vanadium_ore"
+    },
+    "tungsten_ore": {
+      "textures": "textures/blocks/ore/tungsten_ore"
+    },
+    "titanium_ore": {
+      "textures": "textures/blocks/ore/titanium_ore"
+    },
+    "bauxite_ore": {
+      "textures": "textures/blocks/ore/bauxite_ore"
+    },
+    "lime_stone": {
+      "textures": "textures/blocks/ore/lime_stone"
+    },
+    "blacksmith_top": {
+      "textures": "textures/blocks/blacksmith/blacksmith_top"
+    },
+    "blacksmith_side": {
+      "textures": "textures/blocks/blacksmith/blacksmith_side"
+    },
+    "blacksmith_bottom": {
+      "textures": "textures/blocks/blacksmith/blacksmith_bottom"
+    },
+    "blacksmith_front": {
+      "textures": "textures/blocks/blacksmith/blacksmith_front"
+    },
+    "lab_table_top": {
+      "textures": "textures/blocks/chemical/lab_table_top"
+    },
+    "lab_table_bottom": {
+      "textures": "textures/blocks/chemical/lab_table_bottom"
+    },
+    "lab_table_front": {
+      "textures": "textures/blocks/chemical/lab_table_front"
+    },
+    "lab_table_side_a": {
+      "textures": "textures/blocks/chemical/lab_table_side_a"
+    },
+    "lab_table_side_b": {
+      "textures": "textures/blocks/chemical/lab_table_side_b"
+    },
+    "lab_table_side_c": {
+      "textures": "textures/blocks/chemical/lab_table_side_c"
+    },
+    "oil": {
+      "textures": "textures/blocks/chemical/oil"
+    },
+    "mithril_ore": {
+      "textures": "textures/blocks/ore/mithril_ore"
+    },
+    "orichalcum_ore": {
+      "textures": "textures/blocks/ore/orichalcum_ore"
+    },
+    "cryolite_ore": {
+      "textures": "textures/blocks/ore/cryolite_ore"
+    },
+    "cucumber_stage_1": {
+      "textures": "textures/blocks/crop/generated/cucumber_stage_1"
+    },
+    "cucumber_stage_2": {
+      "textures": "textures/blocks/crop/generated/cucumber_stage_2"
+    },
+    "cucumber_stage_3": {
+      "textures": "textures/blocks/crop/generated/cucumber_stage_3"
+    },
+    "cucumber_stage_4": {
+      "textures": "textures/blocks/crop/generated/cucumber_stage_4"
+    },
+    "cabbage_stage_1": {
+      "textures": "textures/blocks/crop/generated/cabbage_stage_1"
+    },
+    "cabbage_stage_2": {
+      "textures": "textures/blocks/crop/generated/cabbage_stage_2"
+    },
+    "cabbage_stage_3": {
+      "textures": "textures/blocks/crop/generated/cabbage_stage_3"
+    },
+    "cabbage_stage_4": {
+      "textures": "textures/blocks/crop/generated/cabbage_stage_4"
+    },
+    "lettuce_stage_1": {
+      "textures": "textures/blocks/crop/generated/lettuce_stage_1"
+    },
+    "lettuce_stage_2": {
+      "textures": "textures/blocks/crop/generated/lettuce_stage_2"
+    },
+    "lettuce_stage_3": {
+      "textures": "textures/blocks/crop/generated/lettuce_stage_3"
+    },
+    "lettuce_stage_4": {
+      "textures": "textures/blocks/crop/generated/lettuce_stage_4"
+    },
+    "spinach_stage_1": {
+      "textures": "textures/blocks/crop/generated/spinach_stage_1"
+    },
+    "spinach_stage_2": {
+      "textures": "textures/blocks/crop/generated/spinach_stage_2"
+    },
+    "spinach_stage_3": {
+      "textures": "textures/blocks/crop/generated/spinach_stage_3"
+    },
+    "spinach_stage_4": {
+      "textures": "textures/blocks/crop/generated/spinach_stage_4"
+    },
+    "eggplant_stage_1": {
+      "textures": "textures/blocks/crop/generated/eggplant_stage_1"
+    },
+    "eggplant_stage_2": {
+      "textures": "textures/blocks/crop/generated/eggplant_stage_2"
+    },
+    "eggplant_stage_3": {
+      "textures": "textures/blocks/crop/generated/eggplant_stage_3"
+    },
+    "eggplant_stage_4": {
+      "textures": "textures/blocks/crop/generated/eggplant_stage_4"
+    },
+    "bell_pepper_stage_1": {
+      "textures": "textures/blocks/crop/generated/bell_pepper_stage_1"
+    },
+    "bell_pepper_stage_2": {
+      "textures": "textures/blocks/crop/generated/bell_pepper_stage_2"
+    },
+    "bell_pepper_stage_3": {
+      "textures": "textures/blocks/crop/generated/bell_pepper_stage_3"
+    },
+    "bell_pepper_stage_4": {
+      "textures": "textures/blocks/crop/generated/bell_pepper_stage_4"
+    },
+    "chili_pepper_stage_1": {
+      "textures": "textures/blocks/crop/generated/chili_pepper_stage_1"
+    },
+    "chili_pepper_stage_2": {
+      "textures": "textures/blocks/crop/generated/chili_pepper_stage_2"
+    },
+    "chili_pepper_stage_3": {
+      "textures": "textures/blocks/crop/generated/chili_pepper_stage_3"
+    },
+    "chili_pepper_stage_4": {
+      "textures": "textures/blocks/crop/generated/chili_pepper_stage_4"
+    },
+    "leek_stage_1": {
+      "textures": "textures/blocks/crop/generated/leek_stage_1"
+    },
+    "leek_stage_2": {
+      "textures": "textures/blocks/crop/generated/leek_stage_2"
+    },
+    "leek_stage_3": {
+      "textures": "textures/blocks/crop/generated/leek_stage_3"
+    },
+    "leek_stage_4": {
+      "textures": "textures/blocks/crop/generated/leek_stage_4"
+    },
+    "ginger_stage_1": {
+      "textures": "textures/blocks/crop/generated/ginger_stage_1"
+    },
+    "ginger_stage_2": {
+      "textures": "textures/blocks/crop/generated/ginger_stage_2"
+    },
+    "ginger_stage_3": {
+      "textures": "textures/blocks/crop/generated/ginger_stage_3"
+    },
+    "ginger_stage_4": {
+      "textures": "textures/blocks/crop/generated/ginger_stage_4"
+    },
+    "lotus_root_stage_1": {
+      "textures": "textures/blocks/crop/generated/lotus_root_stage_1"
+    },
+    "lotus_root_stage_2": {
+      "textures": "textures/blocks/crop/generated/lotus_root_stage_2"
+    },
+    "lotus_root_stage_3": {
+      "textures": "textures/blocks/crop/generated/lotus_root_stage_3"
+    },
+    "lotus_root_stage_4": {
+      "textures": "textures/blocks/crop/generated/lotus_root_stage_4"
+    },
+    "burdock_stage_1": {
+      "textures": "textures/blocks/crop/generated/burdock_stage_1"
+    },
+    "burdock_stage_2": {
+      "textures": "textures/blocks/crop/generated/burdock_stage_2"
+    },
+    "burdock_stage_3": {
+      "textures": "textures/blocks/crop/generated/burdock_stage_3"
+    },
+    "burdock_stage_4": {
+      "textures": "textures/blocks/crop/generated/burdock_stage_4"
+    },
+    "daikon_stage_1": {
+      "textures": "textures/blocks/crop/generated/daikon_stage_1"
+    },
+    "daikon_stage_2": {
+      "textures": "textures/blocks/crop/generated/daikon_stage_2"
+    },
+    "daikon_stage_3": {
+      "textures": "textures/blocks/crop/generated/daikon_stage_3"
+    },
+    "daikon_stage_4": {
+      "textures": "textures/blocks/crop/generated/daikon_stage_4"
+    },
+    "napa_cabbage_stage_1": {
+      "textures": "textures/blocks/crop/generated/napa_cabbage_stage_1"
+    },
+    "napa_cabbage_stage_2": {
+      "textures": "textures/blocks/crop/generated/napa_cabbage_stage_2"
+    },
+    "napa_cabbage_stage_3": {
+      "textures": "textures/blocks/crop/generated/napa_cabbage_stage_3"
+    },
+    "napa_cabbage_stage_4": {
+      "textures": "textures/blocks/crop/generated/napa_cabbage_stage_4"
+    },
+    "shiso_stage_1": {
+      "textures": "textures/blocks/crop/generated/shiso_stage_1"
+    },
+    "shiso_stage_2": {
+      "textures": "textures/blocks/crop/generated/shiso_stage_2"
+    },
+    "shiso_stage_3": {
+      "textures": "textures/blocks/crop/generated/shiso_stage_3"
+    },
+    "shiso_stage_4": {
+      "textures": "textures/blocks/crop/generated/shiso_stage_4"
+    },
+    "sesame_stage_1": {
+      "textures": "textures/blocks/crop/generated/sesame_stage_1"
+    },
+    "sesame_stage_2": {
+      "textures": "textures/blocks/crop/generated/sesame_stage_2"
+    },
+    "sesame_stage_3": {
+      "textures": "textures/blocks/crop/generated/sesame_stage_3"
+    },
+    "sesame_stage_4": {
+      "textures": "textures/blocks/crop/generated/sesame_stage_4"
+    },
+    "peanut_stage_1": {
+      "textures": "textures/blocks/crop/generated/peanut_stage_1"
+    },
+    "peanut_stage_2": {
+      "textures": "textures/blocks/crop/generated/peanut_stage_2"
+    },
+    "peanut_stage_3": {
+      "textures": "textures/blocks/crop/generated/peanut_stage_3"
+    },
+    "peanut_stage_4": {
+      "textures": "textures/blocks/crop/generated/peanut_stage_4"
+    },
+    "zucchini_stage_1": {
+      "textures": "textures/blocks/crop/generated/zucchini_stage_1"
+    },
+    "zucchini_stage_2": {
+      "textures": "textures/blocks/crop/generated/zucchini_stage_2"
+    },
+    "zucchini_stage_3": {
+      "textures": "textures/blocks/crop/generated/zucchini_stage_3"
+    },
+    "zucchini_stage_4": {
+      "textures": "textures/blocks/crop/generated/zucchini_stage_4"
+    },
+    "asparagus_stage_1": {
+      "textures": "textures/blocks/crop/generated/asparagus_stage_1"
+    },
+    "asparagus_stage_2": {
+      "textures": "textures/blocks/crop/generated/asparagus_stage_2"
+    },
+    "asparagus_stage_3": {
+      "textures": "textures/blocks/crop/generated/asparagus_stage_3"
+    },
+    "asparagus_stage_4": {
+      "textures": "textures/blocks/crop/generated/asparagus_stage_4"
+    },
+    "furniture_oak_chair": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_chair"
+    },
+    "furniture_oak_stool": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_stool"
+    },
+    "furniture_oak_dining_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_dining_table"
+    },
+    "furniture_oak_coffee_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_coffee_table"
+    },
+    "furniture_oak_side_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_side_table"
+    },
+    "furniture_oak_desk": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_desk"
+    },
+    "furniture_oak_counter": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_counter"
+    },
+    "furniture_oak_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_cabinet"
+    },
+    "furniture_oak_cupboard": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_cupboard"
+    },
+    "furniture_oak_bookshelf": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_bookshelf"
+    },
+    "furniture_oak_low_shelf": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_low_shelf"
+    },
+    "furniture_oak_wardrobe": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_wardrobe"
+    },
+    "furniture_oak_dresser": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_dresser"
+    },
+    "furniture_oak_sofa": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_sofa"
+    },
+    "furniture_oak_armchair": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_armchair"
+    },
+    "furniture_oak_bench": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_bench"
+    },
+    "furniture_oak_bed": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_bed"
+    },
+    "furniture_oak_futon": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_futon"
+    },
+    "furniture_oak_sink": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_sink"
+    },
+    "furniture_oak_bathtub": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_bathtub"
+    },
+    "furniture_oak_toilet": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_toilet"
+    },
+    "furniture_oak_refrigerator": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_refrigerator"
+    },
+    "furniture_oak_stove": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_stove"
+    },
+    "furniture_oak_microwave": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_microwave"
+    },
+    "furniture_oak_tv_stand": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_tv_stand"
+    },
+    "furniture_oak_television": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_television"
+    },
+    "furniture_oak_lamp": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_lamp"
+    },
+    "furniture_oak_floor_lamp": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_floor_lamp"
+    },
+    "furniture_oak_plant_stand": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_plant_stand"
+    },
+    "furniture_oak_folding_screen": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_folding_screen"
+    },
+    "furniture_oak_rocking_chair": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_rocking_chair"
+    },
+    "furniture_oak_bar_stool": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_bar_stool"
+    },
+    "furniture_oak_ottoman": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_ottoman"
+    },
+    "furniture_oak_chaise_lounge": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_chaise_lounge"
+    },
+    "furniture_oak_picnic_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_picnic_table"
+    },
+    "furniture_oak_console_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_console_table"
+    },
+    "furniture_oak_vanity_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_vanity_table"
+    },
+    "furniture_oak_drafting_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_drafting_table"
+    },
+    "furniture_oak_computer_desk": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_computer_desk"
+    },
+    "furniture_oak_kotatsu": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_kotatsu"
+    },
+    "furniture_oak_nightstand": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_nightstand"
+    },
+    "furniture_oak_shoe_rack": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_shoe_rack"
+    },
+    "furniture_oak_wine_rack": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_wine_rack"
+    },
+    "furniture_oak_display_case": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_display_case"
+    },
+    "furniture_oak_filing_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_filing_cabinet"
+    },
+    "furniture_oak_toy_box": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_toy_box"
+    },
+    "furniture_oak_kitchen_island": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_kitchen_island"
+    },
+    "furniture_oak_kitchen_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_kitchen_cabinet"
+    },
+    "furniture_oak_dishwasher": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_dishwasher"
+    },
+    "furniture_oak_shower_booth": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_shower_booth"
+    },
+    "furniture_oak_bathroom_vanity": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_bathroom_vanity"
+    },
+    "furniture_oak_wall_mirror": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_wall_mirror"
+    },
+    "furniture_oak_towel_rack": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_towel_rack"
+    },
+    "furniture_oak_ceiling_light": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_ceiling_light"
+    },
+    "furniture_oak_chandelier": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_chandelier"
+    },
+    "furniture_oak_wall_sconce": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_wall_sconce"
+    },
+    "furniture_oak_computer": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_computer"
+    },
+    "furniture_oak_arcade_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_arcade_cabinet"
+    },
+    "furniture_oak_speaker": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_speaker"
+    },
+    "furniture_oak_tatami_mat": {
+      "textures": "textures/blocks/furniture/generated/furniture_oak_tatami_mat"
+    },
+    "furniture_spruce_chair": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_chair"
+    },
+    "furniture_spruce_stool": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_stool"
+    },
+    "furniture_spruce_dining_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_dining_table"
+    },
+    "furniture_spruce_coffee_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_coffee_table"
+    },
+    "furniture_spruce_side_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_side_table"
+    },
+    "furniture_spruce_desk": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_desk"
+    },
+    "furniture_spruce_counter": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_counter"
+    },
+    "furniture_spruce_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_cabinet"
+    },
+    "furniture_spruce_cupboard": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_cupboard"
+    },
+    "furniture_spruce_bookshelf": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_bookshelf"
+    },
+    "furniture_spruce_low_shelf": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_low_shelf"
+    },
+    "furniture_spruce_wardrobe": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_wardrobe"
+    },
+    "furniture_spruce_dresser": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_dresser"
+    },
+    "furniture_spruce_sofa": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_sofa"
+    },
+    "furniture_spruce_armchair": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_armchair"
+    },
+    "furniture_spruce_bench": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_bench"
+    },
+    "furniture_spruce_bed": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_bed"
+    },
+    "furniture_spruce_futon": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_futon"
+    },
+    "furniture_spruce_sink": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_sink"
+    },
+    "furniture_spruce_bathtub": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_bathtub"
+    },
+    "furniture_spruce_toilet": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_toilet"
+    },
+    "furniture_spruce_refrigerator": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_refrigerator"
+    },
+    "furniture_spruce_stove": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_stove"
+    },
+    "furniture_spruce_microwave": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_microwave"
+    },
+    "furniture_spruce_tv_stand": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_tv_stand"
+    },
+    "furniture_spruce_television": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_television"
+    },
+    "furniture_spruce_lamp": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_lamp"
+    },
+    "furniture_spruce_floor_lamp": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_floor_lamp"
+    },
+    "furniture_spruce_plant_stand": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_plant_stand"
+    },
+    "furniture_spruce_folding_screen": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_folding_screen"
+    },
+    "furniture_spruce_rocking_chair": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_rocking_chair"
+    },
+    "furniture_spruce_bar_stool": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_bar_stool"
+    },
+    "furniture_spruce_ottoman": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_ottoman"
+    },
+    "furniture_spruce_chaise_lounge": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_chaise_lounge"
+    },
+    "furniture_spruce_picnic_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_picnic_table"
+    },
+    "furniture_spruce_console_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_console_table"
+    },
+    "furniture_spruce_vanity_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_vanity_table"
+    },
+    "furniture_spruce_drafting_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_drafting_table"
+    },
+    "furniture_spruce_computer_desk": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_computer_desk"
+    },
+    "furniture_spruce_kotatsu": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_kotatsu"
+    },
+    "furniture_spruce_nightstand": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_nightstand"
+    },
+    "furniture_spruce_shoe_rack": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_shoe_rack"
+    },
+    "furniture_spruce_wine_rack": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_wine_rack"
+    },
+    "furniture_spruce_display_case": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_display_case"
+    },
+    "furniture_spruce_filing_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_filing_cabinet"
+    },
+    "furniture_spruce_toy_box": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_toy_box"
+    },
+    "furniture_spruce_kitchen_island": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_kitchen_island"
+    },
+    "furniture_spruce_kitchen_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_kitchen_cabinet"
+    },
+    "furniture_spruce_dishwasher": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_dishwasher"
+    },
+    "furniture_spruce_shower_booth": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_shower_booth"
+    },
+    "furniture_spruce_bathroom_vanity": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_bathroom_vanity"
+    },
+    "furniture_spruce_wall_mirror": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_wall_mirror"
+    },
+    "furniture_spruce_towel_rack": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_towel_rack"
+    },
+    "furniture_spruce_ceiling_light": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_ceiling_light"
+    },
+    "furniture_spruce_chandelier": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_chandelier"
+    },
+    "furniture_spruce_wall_sconce": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_wall_sconce"
+    },
+    "furniture_spruce_computer": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_computer"
+    },
+    "furniture_spruce_arcade_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_arcade_cabinet"
+    },
+    "furniture_spruce_speaker": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_speaker"
+    },
+    "furniture_spruce_tatami_mat": {
+      "textures": "textures/blocks/furniture/generated/furniture_spruce_tatami_mat"
+    },
+    "furniture_birch_chair": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_chair"
+    },
+    "furniture_birch_stool": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_stool"
+    },
+    "furniture_birch_dining_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_dining_table"
+    },
+    "furniture_birch_coffee_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_coffee_table"
+    },
+    "furniture_birch_side_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_side_table"
+    },
+    "furniture_birch_desk": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_desk"
+    },
+    "furniture_birch_counter": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_counter"
+    },
+    "furniture_birch_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_cabinet"
+    },
+    "furniture_birch_cupboard": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_cupboard"
+    },
+    "furniture_birch_bookshelf": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_bookshelf"
+    },
+    "furniture_birch_low_shelf": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_low_shelf"
+    },
+    "furniture_birch_wardrobe": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_wardrobe"
+    },
+    "furniture_birch_dresser": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_dresser"
+    },
+    "furniture_birch_sofa": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_sofa"
+    },
+    "furniture_birch_armchair": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_armchair"
+    },
+    "furniture_birch_bench": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_bench"
+    },
+    "furniture_birch_bed": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_bed"
+    },
+    "furniture_birch_futon": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_futon"
+    },
+    "furniture_birch_sink": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_sink"
+    },
+    "furniture_birch_bathtub": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_bathtub"
+    },
+    "furniture_birch_toilet": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_toilet"
+    },
+    "furniture_birch_refrigerator": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_refrigerator"
+    },
+    "furniture_birch_stove": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_stove"
+    },
+    "furniture_birch_microwave": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_microwave"
+    },
+    "furniture_birch_tv_stand": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_tv_stand"
+    },
+    "furniture_birch_television": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_television"
+    },
+    "furniture_birch_lamp": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_lamp"
+    },
+    "furniture_birch_floor_lamp": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_floor_lamp"
+    },
+    "furniture_birch_plant_stand": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_plant_stand"
+    },
+    "furniture_birch_folding_screen": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_folding_screen"
+    },
+    "furniture_birch_rocking_chair": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_rocking_chair"
+    },
+    "furniture_birch_bar_stool": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_bar_stool"
+    },
+    "furniture_birch_ottoman": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_ottoman"
+    },
+    "furniture_birch_chaise_lounge": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_chaise_lounge"
+    },
+    "furniture_birch_picnic_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_picnic_table"
+    },
+    "furniture_birch_console_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_console_table"
+    },
+    "furniture_birch_vanity_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_vanity_table"
+    },
+    "furniture_birch_drafting_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_drafting_table"
+    },
+    "furniture_birch_computer_desk": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_computer_desk"
+    },
+    "furniture_birch_kotatsu": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_kotatsu"
+    },
+    "furniture_birch_nightstand": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_nightstand"
+    },
+    "furniture_birch_shoe_rack": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_shoe_rack"
+    },
+    "furniture_birch_wine_rack": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_wine_rack"
+    },
+    "furniture_birch_display_case": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_display_case"
+    },
+    "furniture_birch_filing_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_filing_cabinet"
+    },
+    "furniture_birch_toy_box": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_toy_box"
+    },
+    "furniture_birch_kitchen_island": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_kitchen_island"
+    },
+    "furniture_birch_kitchen_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_kitchen_cabinet"
+    },
+    "furniture_birch_dishwasher": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_dishwasher"
+    },
+    "furniture_birch_shower_booth": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_shower_booth"
+    },
+    "furniture_birch_bathroom_vanity": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_bathroom_vanity"
+    },
+    "furniture_birch_wall_mirror": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_wall_mirror"
+    },
+    "furniture_birch_towel_rack": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_towel_rack"
+    },
+    "furniture_birch_ceiling_light": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_ceiling_light"
+    },
+    "furniture_birch_chandelier": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_chandelier"
+    },
+    "furniture_birch_wall_sconce": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_wall_sconce"
+    },
+    "furniture_birch_computer": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_computer"
+    },
+    "furniture_birch_arcade_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_arcade_cabinet"
+    },
+    "furniture_birch_speaker": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_speaker"
+    },
+    "furniture_birch_tatami_mat": {
+      "textures": "textures/blocks/furniture/generated/furniture_birch_tatami_mat"
+    },
+    "furniture_dark_oak_chair": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_chair"
+    },
+    "furniture_dark_oak_stool": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_stool"
+    },
+    "furniture_dark_oak_dining_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_dining_table"
+    },
+    "furniture_dark_oak_coffee_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_coffee_table"
+    },
+    "furniture_dark_oak_side_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_side_table"
+    },
+    "furniture_dark_oak_desk": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_desk"
+    },
+    "furniture_dark_oak_counter": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_counter"
+    },
+    "furniture_dark_oak_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_cabinet"
+    },
+    "furniture_dark_oak_cupboard": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_cupboard"
+    },
+    "furniture_dark_oak_bookshelf": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_bookshelf"
+    },
+    "furniture_dark_oak_low_shelf": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_low_shelf"
+    },
+    "furniture_dark_oak_wardrobe": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_wardrobe"
+    },
+    "furniture_dark_oak_dresser": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_dresser"
+    },
+    "furniture_dark_oak_sofa": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_sofa"
+    },
+    "furniture_dark_oak_armchair": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_armchair"
+    },
+    "furniture_dark_oak_bench": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_bench"
+    },
+    "furniture_dark_oak_bed": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_bed"
+    },
+    "furniture_dark_oak_futon": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_futon"
+    },
+    "furniture_dark_oak_sink": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_sink"
+    },
+    "furniture_dark_oak_bathtub": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_bathtub"
+    },
+    "furniture_dark_oak_toilet": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_toilet"
+    },
+    "furniture_dark_oak_refrigerator": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_refrigerator"
+    },
+    "furniture_dark_oak_stove": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_stove"
+    },
+    "furniture_dark_oak_microwave": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_microwave"
+    },
+    "furniture_dark_oak_tv_stand": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_tv_stand"
+    },
+    "furniture_dark_oak_television": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_television"
+    },
+    "furniture_dark_oak_lamp": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_lamp"
+    },
+    "furniture_dark_oak_floor_lamp": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_floor_lamp"
+    },
+    "furniture_dark_oak_plant_stand": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_plant_stand"
+    },
+    "furniture_dark_oak_folding_screen": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_folding_screen"
+    },
+    "furniture_dark_oak_rocking_chair": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_rocking_chair"
+    },
+    "furniture_dark_oak_bar_stool": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_bar_stool"
+    },
+    "furniture_dark_oak_ottoman": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_ottoman"
+    },
+    "furniture_dark_oak_chaise_lounge": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_chaise_lounge"
+    },
+    "furniture_dark_oak_picnic_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_picnic_table"
+    },
+    "furniture_dark_oak_console_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_console_table"
+    },
+    "furniture_dark_oak_vanity_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_vanity_table"
+    },
+    "furniture_dark_oak_drafting_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_drafting_table"
+    },
+    "furniture_dark_oak_computer_desk": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_computer_desk"
+    },
+    "furniture_dark_oak_kotatsu": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_kotatsu"
+    },
+    "furniture_dark_oak_nightstand": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_nightstand"
+    },
+    "furniture_dark_oak_shoe_rack": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_shoe_rack"
+    },
+    "furniture_dark_oak_wine_rack": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_wine_rack"
+    },
+    "furniture_dark_oak_display_case": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_display_case"
+    },
+    "furniture_dark_oak_filing_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_filing_cabinet"
+    },
+    "furniture_dark_oak_toy_box": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_toy_box"
+    },
+    "furniture_dark_oak_kitchen_island": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_kitchen_island"
+    },
+    "furniture_dark_oak_kitchen_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_kitchen_cabinet"
+    },
+    "furniture_dark_oak_dishwasher": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_dishwasher"
+    },
+    "furniture_dark_oak_shower_booth": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_shower_booth"
+    },
+    "furniture_dark_oak_bathroom_vanity": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_bathroom_vanity"
+    },
+    "furniture_dark_oak_wall_mirror": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_wall_mirror"
+    },
+    "furniture_dark_oak_towel_rack": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_towel_rack"
+    },
+    "furniture_dark_oak_ceiling_light": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_ceiling_light"
+    },
+    "furniture_dark_oak_chandelier": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_chandelier"
+    },
+    "furniture_dark_oak_wall_sconce": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_wall_sconce"
+    },
+    "furniture_dark_oak_computer": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_computer"
+    },
+    "furniture_dark_oak_arcade_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_arcade_cabinet"
+    },
+    "furniture_dark_oak_speaker": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_speaker"
+    },
+    "furniture_dark_oak_tatami_mat": {
+      "textures": "textures/blocks/furniture/generated/furniture_dark_oak_tatami_mat"
+    },
+    "furniture_cherry_chair": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_chair"
+    },
+    "furniture_cherry_stool": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_stool"
+    },
+    "furniture_cherry_dining_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_dining_table"
+    },
+    "furniture_cherry_coffee_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_coffee_table"
+    },
+    "furniture_cherry_side_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_side_table"
+    },
+    "furniture_cherry_desk": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_desk"
+    },
+    "furniture_cherry_counter": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_counter"
+    },
+    "furniture_cherry_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_cabinet"
+    },
+    "furniture_cherry_cupboard": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_cupboard"
+    },
+    "furniture_cherry_bookshelf": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_bookshelf"
+    },
+    "furniture_cherry_low_shelf": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_low_shelf"
+    },
+    "furniture_cherry_wardrobe": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_wardrobe"
+    },
+    "furniture_cherry_dresser": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_dresser"
+    },
+    "furniture_cherry_sofa": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_sofa"
+    },
+    "furniture_cherry_armchair": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_armchair"
+    },
+    "furniture_cherry_bench": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_bench"
+    },
+    "furniture_cherry_bed": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_bed"
+    },
+    "furniture_cherry_futon": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_futon"
+    },
+    "furniture_cherry_sink": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_sink"
+    },
+    "furniture_cherry_bathtub": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_bathtub"
+    },
+    "furniture_cherry_toilet": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_toilet"
+    },
+    "furniture_cherry_refrigerator": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_refrigerator"
+    },
+    "furniture_cherry_stove": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_stove"
+    },
+    "furniture_cherry_microwave": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_microwave"
+    },
+    "furniture_cherry_tv_stand": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_tv_stand"
+    },
+    "furniture_cherry_television": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_television"
+    },
+    "furniture_cherry_lamp": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_lamp"
+    },
+    "furniture_cherry_floor_lamp": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_floor_lamp"
+    },
+    "furniture_cherry_plant_stand": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_plant_stand"
+    },
+    "furniture_cherry_folding_screen": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_folding_screen"
+    },
+    "furniture_cherry_rocking_chair": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_rocking_chair"
+    },
+    "furniture_cherry_bar_stool": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_bar_stool"
+    },
+    "furniture_cherry_ottoman": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_ottoman"
+    },
+    "furniture_cherry_chaise_lounge": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_chaise_lounge"
+    },
+    "furniture_cherry_picnic_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_picnic_table"
+    },
+    "furniture_cherry_console_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_console_table"
+    },
+    "furniture_cherry_vanity_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_vanity_table"
+    },
+    "furniture_cherry_drafting_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_drafting_table"
+    },
+    "furniture_cherry_computer_desk": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_computer_desk"
+    },
+    "furniture_cherry_kotatsu": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_kotatsu"
+    },
+    "furniture_cherry_nightstand": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_nightstand"
+    },
+    "furniture_cherry_shoe_rack": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_shoe_rack"
+    },
+    "furniture_cherry_wine_rack": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_wine_rack"
+    },
+    "furniture_cherry_display_case": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_display_case"
+    },
+    "furniture_cherry_filing_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_filing_cabinet"
+    },
+    "furniture_cherry_toy_box": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_toy_box"
+    },
+    "furniture_cherry_kitchen_island": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_kitchen_island"
+    },
+    "furniture_cherry_kitchen_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_kitchen_cabinet"
+    },
+    "furniture_cherry_dishwasher": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_dishwasher"
+    },
+    "furniture_cherry_shower_booth": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_shower_booth"
+    },
+    "furniture_cherry_bathroom_vanity": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_bathroom_vanity"
+    },
+    "furniture_cherry_wall_mirror": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_wall_mirror"
+    },
+    "furniture_cherry_towel_rack": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_towel_rack"
+    },
+    "furniture_cherry_ceiling_light": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_ceiling_light"
+    },
+    "furniture_cherry_chandelier": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_chandelier"
+    },
+    "furniture_cherry_wall_sconce": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_wall_sconce"
+    },
+    "furniture_cherry_computer": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_computer"
+    },
+    "furniture_cherry_arcade_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_arcade_cabinet"
+    },
+    "furniture_cherry_speaker": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_speaker"
+    },
+    "furniture_cherry_tatami_mat": {
+      "textures": "textures/blocks/furniture/generated/furniture_cherry_tatami_mat"
+    },
+    "furniture_white_chair": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_chair"
+    },
+    "furniture_white_stool": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_stool"
+    },
+    "furniture_white_dining_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_dining_table"
+    },
+    "furniture_white_coffee_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_coffee_table"
+    },
+    "furniture_white_side_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_side_table"
+    },
+    "furniture_white_desk": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_desk"
+    },
+    "furniture_white_counter": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_counter"
+    },
+    "furniture_white_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_cabinet"
+    },
+    "furniture_white_cupboard": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_cupboard"
+    },
+    "furniture_white_bookshelf": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_bookshelf"
+    },
+    "furniture_white_low_shelf": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_low_shelf"
+    },
+    "furniture_white_wardrobe": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_wardrobe"
+    },
+    "furniture_white_dresser": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_dresser"
+    },
+    "furniture_white_sofa": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_sofa"
+    },
+    "furniture_white_armchair": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_armchair"
+    },
+    "furniture_white_bench": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_bench"
+    },
+    "furniture_white_bed": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_bed"
+    },
+    "furniture_white_futon": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_futon"
+    },
+    "furniture_white_sink": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_sink"
+    },
+    "furniture_white_bathtub": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_bathtub"
+    },
+    "furniture_white_toilet": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_toilet"
+    },
+    "furniture_white_refrigerator": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_refrigerator"
+    },
+    "furniture_white_stove": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_stove"
+    },
+    "furniture_white_microwave": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_microwave"
+    },
+    "furniture_white_tv_stand": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_tv_stand"
+    },
+    "furniture_white_television": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_television"
+    },
+    "furniture_white_lamp": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_lamp"
+    },
+    "furniture_white_floor_lamp": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_floor_lamp"
+    },
+    "furniture_white_plant_stand": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_plant_stand"
+    },
+    "furniture_white_folding_screen": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_folding_screen"
+    },
+    "furniture_white_rocking_chair": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_rocking_chair"
+    },
+    "furniture_white_bar_stool": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_bar_stool"
+    },
+    "furniture_white_ottoman": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_ottoman"
+    },
+    "furniture_white_chaise_lounge": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_chaise_lounge"
+    },
+    "furniture_white_picnic_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_picnic_table"
+    },
+    "furniture_white_console_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_console_table"
+    },
+    "furniture_white_vanity_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_vanity_table"
+    },
+    "furniture_white_drafting_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_drafting_table"
+    },
+    "furniture_white_computer_desk": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_computer_desk"
+    },
+    "furniture_white_kotatsu": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_kotatsu"
+    },
+    "furniture_white_nightstand": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_nightstand"
+    },
+    "furniture_white_shoe_rack": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_shoe_rack"
+    },
+    "furniture_white_wine_rack": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_wine_rack"
+    },
+    "furniture_white_display_case": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_display_case"
+    },
+    "furniture_white_filing_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_filing_cabinet"
+    },
+    "furniture_white_toy_box": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_toy_box"
+    },
+    "furniture_white_kitchen_island": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_kitchen_island"
+    },
+    "furniture_white_kitchen_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_kitchen_cabinet"
+    },
+    "furniture_white_dishwasher": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_dishwasher"
+    },
+    "furniture_white_shower_booth": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_shower_booth"
+    },
+    "furniture_white_bathroom_vanity": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_bathroom_vanity"
+    },
+    "furniture_white_wall_mirror": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_wall_mirror"
+    },
+    "furniture_white_towel_rack": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_towel_rack"
+    },
+    "furniture_white_ceiling_light": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_ceiling_light"
+    },
+    "furniture_white_chandelier": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_chandelier"
+    },
+    "furniture_white_wall_sconce": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_wall_sconce"
+    },
+    "furniture_white_computer": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_computer"
+    },
+    "furniture_white_arcade_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_arcade_cabinet"
+    },
+    "furniture_white_speaker": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_speaker"
+    },
+    "furniture_white_tatami_mat": {
+      "textures": "textures/blocks/furniture/generated/furniture_white_tatami_mat"
+    },
+    "furniture_black_chair": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_chair"
+    },
+    "furniture_black_stool": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_stool"
+    },
+    "furniture_black_dining_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_dining_table"
+    },
+    "furniture_black_coffee_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_coffee_table"
+    },
+    "furniture_black_side_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_side_table"
+    },
+    "furniture_black_desk": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_desk"
+    },
+    "furniture_black_counter": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_counter"
+    },
+    "furniture_black_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_cabinet"
+    },
+    "furniture_black_cupboard": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_cupboard"
+    },
+    "furniture_black_bookshelf": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_bookshelf"
+    },
+    "furniture_black_low_shelf": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_low_shelf"
+    },
+    "furniture_black_wardrobe": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_wardrobe"
+    },
+    "furniture_black_dresser": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_dresser"
+    },
+    "furniture_black_sofa": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_sofa"
+    },
+    "furniture_black_armchair": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_armchair"
+    },
+    "furniture_black_bench": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_bench"
+    },
+    "furniture_black_bed": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_bed"
+    },
+    "furniture_black_futon": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_futon"
+    },
+    "furniture_black_sink": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_sink"
+    },
+    "furniture_black_bathtub": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_bathtub"
+    },
+    "furniture_black_toilet": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_toilet"
+    },
+    "furniture_black_refrigerator": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_refrigerator"
+    },
+    "furniture_black_stove": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_stove"
+    },
+    "furniture_black_microwave": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_microwave"
+    },
+    "furniture_black_tv_stand": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_tv_stand"
+    },
+    "furniture_black_television": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_television"
+    },
+    "furniture_black_lamp": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_lamp"
+    },
+    "furniture_black_floor_lamp": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_floor_lamp"
+    },
+    "furniture_black_plant_stand": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_plant_stand"
+    },
+    "furniture_black_folding_screen": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_folding_screen"
+    },
+    "furniture_black_rocking_chair": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_rocking_chair"
+    },
+    "furniture_black_bar_stool": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_bar_stool"
+    },
+    "furniture_black_ottoman": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_ottoman"
+    },
+    "furniture_black_chaise_lounge": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_chaise_lounge"
+    },
+    "furniture_black_picnic_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_picnic_table"
+    },
+    "furniture_black_console_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_console_table"
+    },
+    "furniture_black_vanity_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_vanity_table"
+    },
+    "furniture_black_drafting_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_drafting_table"
+    },
+    "furniture_black_computer_desk": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_computer_desk"
+    },
+    "furniture_black_kotatsu": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_kotatsu"
+    },
+    "furniture_black_nightstand": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_nightstand"
+    },
+    "furniture_black_shoe_rack": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_shoe_rack"
+    },
+    "furniture_black_wine_rack": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_wine_rack"
+    },
+    "furniture_black_display_case": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_display_case"
+    },
+    "furniture_black_filing_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_filing_cabinet"
+    },
+    "furniture_black_toy_box": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_toy_box"
+    },
+    "furniture_black_kitchen_island": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_kitchen_island"
+    },
+    "furniture_black_kitchen_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_kitchen_cabinet"
+    },
+    "furniture_black_dishwasher": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_dishwasher"
+    },
+    "furniture_black_shower_booth": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_shower_booth"
+    },
+    "furniture_black_bathroom_vanity": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_bathroom_vanity"
+    },
+    "furniture_black_wall_mirror": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_wall_mirror"
+    },
+    "furniture_black_towel_rack": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_towel_rack"
+    },
+    "furniture_black_ceiling_light": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_ceiling_light"
+    },
+    "furniture_black_chandelier": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_chandelier"
+    },
+    "furniture_black_wall_sconce": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_wall_sconce"
+    },
+    "furniture_black_computer": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_computer"
+    },
+    "furniture_black_arcade_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_arcade_cabinet"
+    },
+    "furniture_black_speaker": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_speaker"
+    },
+    "furniture_black_tatami_mat": {
+      "textures": "textures/blocks/furniture/generated/furniture_black_tatami_mat"
+    },
+    "furniture_red_chair": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_chair"
+    },
+    "furniture_red_stool": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_stool"
+    },
+    "furniture_red_dining_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_dining_table"
+    },
+    "furniture_red_coffee_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_coffee_table"
+    },
+    "furniture_red_side_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_side_table"
+    },
+    "furniture_red_desk": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_desk"
+    },
+    "furniture_red_counter": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_counter"
+    },
+    "furniture_red_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_cabinet"
+    },
+    "furniture_red_cupboard": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_cupboard"
+    },
+    "furniture_red_bookshelf": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_bookshelf"
+    },
+    "furniture_red_low_shelf": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_low_shelf"
+    },
+    "furniture_red_wardrobe": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_wardrobe"
+    },
+    "furniture_red_dresser": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_dresser"
+    },
+    "furniture_red_sofa": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_sofa"
+    },
+    "furniture_red_armchair": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_armchair"
+    },
+    "furniture_red_bench": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_bench"
+    },
+    "furniture_red_bed": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_bed"
+    },
+    "furniture_red_futon": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_futon"
+    },
+    "furniture_red_sink": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_sink"
+    },
+    "furniture_red_bathtub": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_bathtub"
+    },
+    "furniture_red_toilet": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_toilet"
+    },
+    "furniture_red_refrigerator": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_refrigerator"
+    },
+    "furniture_red_stove": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_stove"
+    },
+    "furniture_red_microwave": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_microwave"
+    },
+    "furniture_red_tv_stand": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_tv_stand"
+    },
+    "furniture_red_television": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_television"
+    },
+    "furniture_red_lamp": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_lamp"
+    },
+    "furniture_red_floor_lamp": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_floor_lamp"
+    },
+    "furniture_red_plant_stand": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_plant_stand"
+    },
+    "furniture_red_folding_screen": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_folding_screen"
+    },
+    "furniture_red_rocking_chair": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_rocking_chair"
+    },
+    "furniture_red_bar_stool": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_bar_stool"
+    },
+    "furniture_red_ottoman": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_ottoman"
+    },
+    "furniture_red_chaise_lounge": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_chaise_lounge"
+    },
+    "furniture_red_picnic_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_picnic_table"
+    },
+    "furniture_red_console_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_console_table"
+    },
+    "furniture_red_vanity_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_vanity_table"
+    },
+    "furniture_red_drafting_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_drafting_table"
+    },
+    "furniture_red_computer_desk": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_computer_desk"
+    },
+    "furniture_red_kotatsu": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_kotatsu"
+    },
+    "furniture_red_nightstand": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_nightstand"
+    },
+    "furniture_red_shoe_rack": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_shoe_rack"
+    },
+    "furniture_red_wine_rack": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_wine_rack"
+    },
+    "furniture_red_display_case": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_display_case"
+    },
+    "furniture_red_filing_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_filing_cabinet"
+    },
+    "furniture_red_toy_box": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_toy_box"
+    },
+    "furniture_red_kitchen_island": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_kitchen_island"
+    },
+    "furniture_red_kitchen_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_kitchen_cabinet"
+    },
+    "furniture_red_dishwasher": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_dishwasher"
+    },
+    "furniture_red_shower_booth": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_shower_booth"
+    },
+    "furniture_red_bathroom_vanity": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_bathroom_vanity"
+    },
+    "furniture_red_wall_mirror": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_wall_mirror"
+    },
+    "furniture_red_towel_rack": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_towel_rack"
+    },
+    "furniture_red_ceiling_light": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_ceiling_light"
+    },
+    "furniture_red_chandelier": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_chandelier"
+    },
+    "furniture_red_wall_sconce": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_wall_sconce"
+    },
+    "furniture_red_computer": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_computer"
+    },
+    "furniture_red_arcade_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_arcade_cabinet"
+    },
+    "furniture_red_speaker": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_speaker"
+    },
+    "furniture_red_tatami_mat": {
+      "textures": "textures/blocks/furniture/generated/furniture_red_tatami_mat"
+    },
+    "furniture_blue_chair": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_chair"
+    },
+    "furniture_blue_stool": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_stool"
+    },
+    "furniture_blue_dining_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_dining_table"
+    },
+    "furniture_blue_coffee_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_coffee_table"
+    },
+    "furniture_blue_side_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_side_table"
+    },
+    "furniture_blue_desk": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_desk"
+    },
+    "furniture_blue_counter": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_counter"
+    },
+    "furniture_blue_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_cabinet"
+    },
+    "furniture_blue_cupboard": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_cupboard"
+    },
+    "furniture_blue_bookshelf": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_bookshelf"
+    },
+    "furniture_blue_low_shelf": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_low_shelf"
+    },
+    "furniture_blue_wardrobe": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_wardrobe"
+    },
+    "furniture_blue_dresser": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_dresser"
+    },
+    "furniture_blue_sofa": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_sofa"
+    },
+    "furniture_blue_armchair": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_armchair"
+    },
+    "furniture_blue_bench": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_bench"
+    },
+    "furniture_blue_bed": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_bed"
+    },
+    "furniture_blue_futon": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_futon"
+    },
+    "furniture_blue_sink": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_sink"
+    },
+    "furniture_blue_bathtub": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_bathtub"
+    },
+    "furniture_blue_toilet": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_toilet"
+    },
+    "furniture_blue_refrigerator": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_refrigerator"
+    },
+    "furniture_blue_stove": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_stove"
+    },
+    "furniture_blue_microwave": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_microwave"
+    },
+    "furniture_blue_tv_stand": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_tv_stand"
+    },
+    "furniture_blue_television": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_television"
+    },
+    "furniture_blue_lamp": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_lamp"
+    },
+    "furniture_blue_floor_lamp": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_floor_lamp"
+    },
+    "furniture_blue_plant_stand": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_plant_stand"
+    },
+    "furniture_blue_folding_screen": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_folding_screen"
+    },
+    "furniture_blue_rocking_chair": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_rocking_chair"
+    },
+    "furniture_blue_bar_stool": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_bar_stool"
+    },
+    "furniture_blue_ottoman": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_ottoman"
+    },
+    "furniture_blue_chaise_lounge": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_chaise_lounge"
+    },
+    "furniture_blue_picnic_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_picnic_table"
+    },
+    "furniture_blue_console_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_console_table"
+    },
+    "furniture_blue_vanity_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_vanity_table"
+    },
+    "furniture_blue_drafting_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_drafting_table"
+    },
+    "furniture_blue_computer_desk": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_computer_desk"
+    },
+    "furniture_blue_kotatsu": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_kotatsu"
+    },
+    "furniture_blue_nightstand": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_nightstand"
+    },
+    "furniture_blue_shoe_rack": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_shoe_rack"
+    },
+    "furniture_blue_wine_rack": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_wine_rack"
+    },
+    "furniture_blue_display_case": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_display_case"
+    },
+    "furniture_blue_filing_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_filing_cabinet"
+    },
+    "furniture_blue_toy_box": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_toy_box"
+    },
+    "furniture_blue_kitchen_island": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_kitchen_island"
+    },
+    "furniture_blue_kitchen_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_kitchen_cabinet"
+    },
+    "furniture_blue_dishwasher": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_dishwasher"
+    },
+    "furniture_blue_shower_booth": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_shower_booth"
+    },
+    "furniture_blue_bathroom_vanity": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_bathroom_vanity"
+    },
+    "furniture_blue_wall_mirror": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_wall_mirror"
+    },
+    "furniture_blue_towel_rack": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_towel_rack"
+    },
+    "furniture_blue_ceiling_light": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_ceiling_light"
+    },
+    "furniture_blue_chandelier": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_chandelier"
+    },
+    "furniture_blue_wall_sconce": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_wall_sconce"
+    },
+    "furniture_blue_computer": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_computer"
+    },
+    "furniture_blue_arcade_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_arcade_cabinet"
+    },
+    "furniture_blue_speaker": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_speaker"
+    },
+    "furniture_blue_tatami_mat": {
+      "textures": "textures/blocks/furniture/generated/furniture_blue_tatami_mat"
+    },
+    "furniture_green_chair": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_chair"
+    },
+    "furniture_green_stool": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_stool"
+    },
+    "furniture_green_dining_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_dining_table"
+    },
+    "furniture_green_coffee_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_coffee_table"
+    },
+    "furniture_green_side_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_side_table"
+    },
+    "furniture_green_desk": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_desk"
+    },
+    "furniture_green_counter": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_counter"
+    },
+    "furniture_green_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_cabinet"
+    },
+    "furniture_green_cupboard": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_cupboard"
+    },
+    "furniture_green_bookshelf": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_bookshelf"
+    },
+    "furniture_green_low_shelf": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_low_shelf"
+    },
+    "furniture_green_wardrobe": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_wardrobe"
+    },
+    "furniture_green_dresser": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_dresser"
+    },
+    "furniture_green_sofa": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_sofa"
+    },
+    "furniture_green_armchair": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_armchair"
+    },
+    "furniture_green_bench": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_bench"
+    },
+    "furniture_green_bed": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_bed"
+    },
+    "furniture_green_futon": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_futon"
+    },
+    "furniture_green_sink": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_sink"
+    },
+    "furniture_green_bathtub": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_bathtub"
+    },
+    "furniture_green_toilet": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_toilet"
+    },
+    "furniture_green_refrigerator": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_refrigerator"
+    },
+    "furniture_green_stove": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_stove"
+    },
+    "furniture_green_microwave": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_microwave"
+    },
+    "furniture_green_tv_stand": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_tv_stand"
+    },
+    "furniture_green_television": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_television"
+    },
+    "furniture_green_lamp": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_lamp"
+    },
+    "furniture_green_floor_lamp": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_floor_lamp"
+    },
+    "furniture_green_plant_stand": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_plant_stand"
+    },
+    "furniture_green_folding_screen": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_folding_screen"
+    },
+    "furniture_green_rocking_chair": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_rocking_chair"
+    },
+    "furniture_green_bar_stool": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_bar_stool"
+    },
+    "furniture_green_ottoman": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_ottoman"
+    },
+    "furniture_green_chaise_lounge": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_chaise_lounge"
+    },
+    "furniture_green_picnic_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_picnic_table"
+    },
+    "furniture_green_console_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_console_table"
+    },
+    "furniture_green_vanity_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_vanity_table"
+    },
+    "furniture_green_drafting_table": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_drafting_table"
+    },
+    "furniture_green_computer_desk": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_computer_desk"
+    },
+    "furniture_green_kotatsu": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_kotatsu"
+    },
+    "furniture_green_nightstand": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_nightstand"
+    },
+    "furniture_green_shoe_rack": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_shoe_rack"
+    },
+    "furniture_green_wine_rack": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_wine_rack"
+    },
+    "furniture_green_display_case": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_display_case"
+    },
+    "furniture_green_filing_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_filing_cabinet"
+    },
+    "furniture_green_toy_box": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_toy_box"
+    },
+    "furniture_green_kitchen_island": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_kitchen_island"
+    },
+    "furniture_green_kitchen_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_kitchen_cabinet"
+    },
+    "furniture_green_dishwasher": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_dishwasher"
+    },
+    "furniture_green_shower_booth": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_shower_booth"
+    },
+    "furniture_green_bathroom_vanity": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_bathroom_vanity"
+    },
+    "furniture_green_wall_mirror": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_wall_mirror"
+    },
+    "furniture_green_towel_rack": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_towel_rack"
+    },
+    "furniture_green_ceiling_light": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_ceiling_light"
+    },
+    "furniture_green_chandelier": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_chandelier"
+    },
+    "furniture_green_wall_sconce": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_wall_sconce"
+    },
+    "furniture_green_computer": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_computer"
+    },
+    "furniture_green_arcade_cabinet": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_arcade_cabinet"
+    },
+    "furniture_green_speaker": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_speaker"
+    },
+    "furniture_green_tatami_mat": {
+      "textures": "textures/blocks/furniture/generated/furniture_green_tatami_mat"
+    }
+  },
+  "stone": {
+    "textures": [
+      "textures/blocks/stone",
+      "textures/blocks/stone_granite",
+      "textures/blocks/stone_granite_smooth",
+      "textures/blocks/stone_diorite",
+      "textures/blocks/stone_diorite_smooth",
+      "textures/blocks/stone_andesite",
+      "textures/blocks/stone_andesite_smooth"
+    ]
+  },
+  "granite": {
+    "textures": "textures/blocks/stone_granite"
+  },
+  "diorite": {
+    "textures": "textures/blocks/stone_diorite"
+  },
+  "andesite": {
+    "textures": "textures/blocks/stone_andesite"
+  },
+  "polished_diorite": {
+    "textures": "textures/blocks/stone_diorite_smooth"
+  },
+  "polished_andesite": {
+    "textures": "textures/blocks/stone_andesite_smooth"
+  },
+  "polished_granite": {
+    "textures": "textures/blocks/stone_granite_smooth"
+  },
+  "sandstone_top": {
+    "textures": [
+      "textures/blocks/sandstone_top",
+      "textures/blocks/sandstone_top",
+      "textures/blocks/sandstone_top",
+      "textures/blocks/sandstone_top"
+    ]
+  },
+  "sandstone_bottom": {
+    "textures": [
+      "textures/blocks/sandstone_bottom",
+      "textures/blocks/sandstone_top",
+      "textures/blocks/sandstone_top",
+      "textures/blocks/sandstone_top"
+    ]
+  },
+  "sandstone_side": {
+    "textures": [
+      "textures/blocks/sandstone_normal",
+      "textures/blocks/sandstone_carved",
+      "textures/blocks/sandstone_smooth",
+      "textures/blocks/sandstone_top"
+    ]
+  },
+  "chiseled_deepslate": {
+    "textures": "textures/blocks/deepslate/chiseled_deepslate"
+  },
+  "cobbled_deepslate": {
+    "textures": "textures/blocks/deepslate/cobbled_deepslate"
+  },
+  "deepslate": {
+    "textures": "textures/blocks/deepslate/deepslate"
+  },
+  "deepslate_bricks": {
+    "textures": "textures/blocks/deepslate/deepslate_bricks"
+  },
+  "deepslate_diamond_ore": {
+    "textures": "textures/blocks/deepslate/deepslate_diamond_ore"
+  },
+  "deepslate_gold_ore": {
+    "textures": "textures/blocks/deepslate/deepslate_gold_ore"
+  },
+  "deepslate_iron_ore": {
+    "textures": "textures/blocks/deepslate/deepslate_iron_ore"
+  },
+  "deepslate_lapis_ore": {
+    "textures": "textures/blocks/deepslate/deepslate_lapis_ore"
+  },
+  "deepslate_redstone_ore": {
+    "textures": "textures/blocks/deepslate/deepslate_redstone_ore"
+  },
+  "deepslate_tiles": {
+    "textures": "textures/blocks/deepslate/deepslate_tiles"
+  },
+  "deepslate_top": {
+    "textures": "textures/blocks/deepslate/deepslate_top"
+  },
+  "polished_deepslate": {
+    "textures": "textures/blocks/deepslate/polished_deepslate"
+  },
+  "deepslate_coal_ore": {
+    "textures": "textures/blocks/deepslate/deepslate_coal_ore"
+  },
+  "deepslate_emerald_ore": {
+    "textures": "textures/blocks/deepslate/deepslate_emerald_ore"
+  },
+  "deepslate_copper_ore": {
+    "textures": "textures/blocks/deepslate/deepslate_copper_ore"
+  },
+  "cracked_deepslate_tiles": {
+    "textures": "textures/blocks/deepslate/cracked_deepslate_tiles"
+  },
+  "cracked_deepslate_bricks": {
+    "textures": "textures/blocks/deepslate/cracked_deepslate_bricks"
+  },
+  "netherrack": {
+    "textures": "textures/blocks/netherrack"
+  },
+  "gravel": {
+    "textures": "textures/blocks/gravel"
+  },
+  "tuff": {
+    "textures": "textures/blocks/tuff"
+  },
+  "basalt_side": {
+    "textures": "textures/blocks/basalt_side"
+  },
+  "basalt_top": {
+    "textures": "textures/blocks/basalt_top"
+  },
+  "smooth_basalt": {
+    "textures": "textures/blocks/smooth_basalt"
+  },
+  "soul_sand": {
+    "textures": "textures/blocks/soul_sand"
+  },
+  "soul_soil": {
+    "textures": "textures/blocks/soul_soil"
+  },
+  "blackstone": {
+    "textures": "textures/blocks/blackstone"
+  },
+  "blackstone_top": {
+    "textures": "textures/blocks/blackstone_top"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "karoearth-delivery-marketplace",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Amazon-like storefront using the KaroEarth storage delivery API.",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

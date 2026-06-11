@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KaroMall</title>
+  <link rel="stylesheet" href="/styles.css?v=20260611-texture-display">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="KaroMall home">
+      <span class="brand-mark">K</span>
+      <span>KaroMall</span>
+    </a>
+    <form class="search" id="search-form">
+      <label class="sr-only" for="search-input">検索</label>
+      <input id="search-input" type="search" placeholder="アイテム名、種類、販売店で検索">
+      <button type="submit" aria-label="検索">
+        <span class="search-icon"></span>
+      </button>
+    </form>
+    <button class="cart-button" id="cart-toggle" type="button" aria-label="カート">
+      <span class="cart-glyph"></span>
+      <span id="cart-count">0</span>
+    </button>
+  </header>
+
+  <nav class="subnav" id="seller-tabs" aria-label="販売店"></nav>
+
+  <main class="shell">
+    <aside class="filters" aria-label="絞り込み">
+      <div class="filter-block">
+        <h2>カテゴリ</h2>
+        <div class="filter-list" id="category-filter"></div>
+      </div>
+      <div class="filter-block">
+        <h2>配送</h2>
+        <label class="check-row"><input type="checkbox" id="filter-instant"> 即時配送あり</label>
+        <label class="check-row"><input type="checkbox" id="filter-in-stock" checked> 在庫あり</label>
+      </div>
+      <div class="filter-block">
+        <h2>並び替え</h2>
+        <select id="sort-select">
+          <option value="recommended">おすすめ順</option>
+          <option value="stock">在庫が多い順</option>
+          <option value="shipping">配送料が安い順</option>
+          <option value="name">名前順</option>
+        </select>
+      </div>
+    </aside>
+
+    <section class="catalog">
+      <div class="catalog-head">
+        <div>
+          <p class="eyebrow" id="catalog-kicker">Delivery Marketplace</p>
+          <h1 id="catalog-title">商品一覧</h1>
+        </div>
+        <p class="result-count" id="result-count"></p>
+      </div>
+      <div class="status" id="status"></div>
+      <div class="catalog-toolbar">
+        <span id="page-range"></span>
+        <label>表示件数
+          <select id="page-size-select">
+            <option value="12">12</option>
+            <option value="24">24</option>
+            <option value="48">48</option>
+          </select>
+        </label>
+      </div>
+      <div class="product-grid" id="product-grid"></div>
+      <nav class="pagination" id="pagination" aria-label="ページ"></nav>
+    </section>
+
+    <aside class="cart-panel" id="cart-panel" aria-label="カート">
+      <div class="cart-head">
+        <h2>カート</h2>
+        <button class="icon-button" id="cart-close" type="button" aria-label="閉じる">×</button>
+      </div>
+      <div class="cart-items" id="cart-items"></div>
+      <form class="checkout" id="checkout-form">
+        <label>受取MCID
+          <input name="recipientName" maxlength="32" autocomplete="username" required>
+        </label>
+        <label>受取先名
+          <input name="recipientStoreName" maxlength="80" placeholder="任意">
+        </label>
+        <div class="checkout-breakdown">
+          <span>商品合計</span>
+          <strong id="item-total">0</strong>
+        </div>
+        <div class="checkout-breakdown">
+          <span>配送料</span>
+          <strong id="shipping-total">0</strong>
+        </div>
+        <div class="checkout-total">
+          <span>合計</span>
+          <strong id="order-total">0</strong>
+        </div>
+        <button class="primary" type="submit">注文を確定</button>
+      </form>
+    </aside>
+  </main>
+
+  <dialog class="product-dialog" id="product-dialog">
+    <button class="icon-button dialog-close" id="dialog-close" type="button" aria-label="閉じる">×</button>
+    <div id="product-dialog-content"></div>
+  </dialog>
+
+  <dialog class="order-dialog" id="order-dialog">
+    <div id="order-dialog-content"></div>
+    <button class="primary" id="order-dialog-close" type="button">閉じる</button>
+  </dialog>
+
+  <script src="/app.js?v=20260611-texture-display" type="module"></script>
+</body>
+</html>
