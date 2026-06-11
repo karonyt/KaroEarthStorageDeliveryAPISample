@@ -61,7 +61,7 @@ MARKETPLACE_SITES=[{"siteId":"sds_xxx","adminToken":"sdt_xxx","label":"Seller Sh
 
 - `storage-delivery-api`: 公開商品、送料レート、注文作成、署名API
 - `virtual-storage`: 実在庫の保管、エスクロー、配送
-- `account-link`: 販売サイトとサイト専用APIキーの発行UI
+- [`account-link`](https://mclink.karon.jp/): 販売サイトとサイト専用APIキーの発行UI
 
 ## 動作中のサンプル
 https://karozon.karon.jp/
