@@ -9,7 +9,7 @@ cd delivery-marketplace
 npm start
 ```
 
-標準では `http://localhost:20120` で起動します。
+標準では `http://localhost:3000` で起動します。
 
 ## アイテム表示
 
