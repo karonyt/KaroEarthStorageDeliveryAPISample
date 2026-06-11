@@ -5,7 +5,7 @@ storage-delivery-api を使った Amazon 風の購入サイトです。商品一
 ## 起動
 
 ```bash
-cd delivery-marketplace
+KaroEarthStorageDeliveryAPISample
 npm start
 ```
 
