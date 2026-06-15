@@ -63,13 +63,8 @@ async function init() {
       getJson('/api/config'),
       getJson('/api/catalog')
     ]);
-    state.marketplaceName = config.marketplaceName || catalog.marketplaceName || 'KaroMall';
     state.products = catalog.products || [];
     state.sites = catalog.sites || [];
-
-    document.title = state.marketplaceName;
-    document.querySelector('.brand-name').textContent = state.marketplaceName;
-    els.utilityStoreName.textContent = state.marketplaceName;
 
     if (!catalog.configured) {
       setStatus('販売サイトが未設定です。', true);
